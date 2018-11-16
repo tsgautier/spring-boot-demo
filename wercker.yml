@@ -15,4 +15,5 @@ build:
     # https://github.com/wercker/step-gradle
     - java/gradle:
       task: build
+      version: 4.10.2
       cache_project_cache: true
